@@ -14,8 +14,5 @@ export default tseslint.config(
     languageOptions: {
       ecmaVersion: 2020,
     },
-    rules: {
-      quotes: ["error", "single"], // Prefer single quotes
-    },
   },
 );

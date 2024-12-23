@@ -24,9 +24,11 @@ Unlike other solutions that often require sign-ups, logins, and unnecessary comp
 
 Before contributing to RetroRooms, ensure you have the following installed:
 
-- Node.js (LTS version recommended)
+- Node.js current LTS version (22.12.0)
 - pnpm (install it using `npm install -g pnpm`)
 - Git
+
+Also, we highly recommend using **nvm** to manage Node.js versions.
 
 ## Installation Guide
 
@@ -48,6 +50,8 @@ Before contributing to RetroRooms, ensure you have the following installed:
      ```bash
      pnpm run dev:client
      ```
+
+When installing dependencies with `pnpm install`, the `prepare` script defined in `package.json` will run automatically, and will install pre-commit hooks for linting and formatting via husky. This will ensure that all code contributions are linted and formatted correctly.
 
 ## Our Practices
 

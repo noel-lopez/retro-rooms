@@ -5,6 +5,7 @@
   "scripts": {
     "dev:client": "pnpm --filter client dev",
     "dev:server": "pnpm --filter server dev",
+    "dev:docs": "pnpm --filter docs dev",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "lint": "pnpm -r lint",

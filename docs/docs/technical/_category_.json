@@ -1,0 +1,8 @@
+{
+  "label": "Technical",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about the technical details and decisions made so far."
+  }
+}

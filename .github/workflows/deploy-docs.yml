@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feat-docs-workspace
+  workflow_dispatch:
 
 jobs:
   build:

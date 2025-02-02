@@ -5,6 +5,9 @@ on:
     branches:
       - feat-docs-workspace
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

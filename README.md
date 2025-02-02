@@ -42,13 +42,17 @@ Also, we highly recommend using **nvm** to manage Node.js versions.
    pnpm install
    ```
 3. Developing:
-   - Start the backend:
+   - Run backend in development mode:
      ```bash
      pnpm run dev:server
      ```
-   - Start the frontend:
+   - Run frontend in development mode:
      ```bash
      pnpm run dev:client
+     ```
+   - Run documentation in development mode:
+     ```bash
+     pnpm run dev:docs
      ```
 
 When installing dependencies with `pnpm install`, the `prepare` script defined in `package.json` will run automatically, and will install pre-commit hooks for linting and formatting via husky. This will ensure that all code contributions are linted and formatted correctly.
